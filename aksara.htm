@@ -1,0 +1,50 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="jv" lang="jv-java">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <meta http-equiv="X-UA-Compatible" content="text/html;">
+  <title></title>
+  <link rel="stylesheet" href="Nulisa_v1.1_files/specimen_stylesheet.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="Nulisa_v1.1_files/stylesheet.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="Nulisa_v1.1_files/all.js" id="facebook-jssdk"></script>
+  <script src="Nulisa_v1.1_files/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="Nulisa_v1.1_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
+  <script src="Nulisa_v1.1_files/index.php" type="text/javascript" language="javascript" charset="utf-8"></script>
+  <script src="Nulisa_v1.1_files/transliterator.js" type="text/javascript" language="javascript"
+    charset="utf-8"></script>
+  <script src="Nulisa_v1.1_files/script.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+      $('#container').easyTabs({ defaultContent: 1 });
+    });
+  </script>
+  <div id="main_content" <div style="display: block;" class="easytabs-tab-content" id="home">
+    <div id="bd" role="main">
+      <div id="transdiv" class="gb">
+        <h3>Masukkan Teks </h3>
+        <h3>Masukkan teks di sini, kemudian tekan Enter ! <abbr
+            title="Dapat menerima input dalam bahasa Jawa maupun Indonesia"><small></small></abbr></h3>
+        <textarea id="inp_txt" class="tb"> </textarea>
+      </div>
+      <div id="output" class="gb">
+        <h3>Hasil Terjemahan</h3>
+        <form name="formText">
+
+          <textarea id="ta" class="main_ta" name="editSrc"></textarea>
+          <!-- <input onclick="transliterate(java2latn)" name="buttonConvert" value="jawa &gt; latin" type="button"> -->
+          <input class="btn btn-primary" type="reset" value="reset" style="margin-top: 10px">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="specs">
+  </div>
+  </body>
+
+</html>
